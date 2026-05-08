@@ -12,7 +12,7 @@ public class MainController {
 	@GetMapping("")
 	@ResponseBody
 	public String index() {
-		return "Hello, MainController!";
+		return "Hello, MainController! I`m running.";
 	}
 
 }
